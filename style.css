@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+body {
+    background-color: #111;
+}
+
+header .topo-dentro {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+section .apresentação-dentro {
+    color: #fdfeec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 250px;
+}
+
+section .txt-apresentação {
+    width: 700px;
+    margin-right: 300px;
+}
+
+section .txt-apresentação h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+section .txt-apresentação p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+section .img-apresentação img {
+    border-radius: 30px;
+}
+
+section .serviços-dentro {
+    color: #fdfeec;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+section .serviços-dentro div {
+    width: 550px;
+    margin: 0px 40px;
+}
+
+section .serviços-dentro .piercing {
+    border: solid 1px #fdfeec;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+section .serviços-dentro .piercing img {
+    margin-bottom: 20px;
+}
+
+section .serviços-dentro .piercing h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+section .serviços-dentro .piercing p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+section .serviços-dentro .joia {
+    border: solid 1px #fdfeec;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+section .serviços-dentro .joia img {
+    margin-bottom: 20px;
+}
+
+section .serviços-dentro .joia h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+section .serviços-dentro .joia p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+@media screen and (max-width: 1020px) {
+    header .topo-dentro .img-logo-topo img {
+        height: 100px;
+    }
+
+    section .apresentação-dentro {
+        color: #fdfeec;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0px;
+    }
+
+    section .txt-apresentação {
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        margin: 0px 300px;
+    }
+
+    section .apresentação-dentro .txt-apresentação h1{
+        font-size: 80px;
+        margin-bottom: 30px;
+    }
+
+    section .apresentação-dentro .img-apresentação img {
+        height: 550px;
+    }
+
+    section .apresentação-dentro .txt-apresentação p{
+        font-size: 40px;
+    }
+
+    section .img-apresentação img {
+        margin-top: 80px;
+    }
+
+    section .serviços-dentro {
+        color: #fdfeec;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    section .serviços-dentro p {
+        text-align: center;
+    }
+
+    section .serviços-dentro .piercing {
+        border: solid 1px #fdfeec;
+        border-radius: 30px;
+        padding: 30px;
+        margin-bottom: 40px;
+    }
+
+    section .serviços-dentro .piercing h1 {
+        font-size: 70px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    section .serviços-dentro .piercing p {
+        font-size: 40px;
+    }
+
+    section .serviços-dentro .joia h1 {
+        font-size: 70px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    section .serviços-dentro .joia p {
+        font-size: 40px;
+    }
+
+    section .serviços-dentro .piercing img {
+        height: 130px;
+    }
+
+    section .serviços-dentro .joia img {
+        height: 130px;
+    }
+
+    section .links-dentro {
+        color: #fdfeec;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    section .links-dentro .Agendamento-links {
+        margin-top: -10px;
+        margin-bottom: 80px;
+    }
+    
+    section .links-dentro div {
+        text-align: center;
+    }
+    
+    section .links-dentro .Agendamento-links h1 {
+        font-size: 90px;
+        margin-bottom: 30px;
+    }
+
+    section .links-dentro .RedesSociais-links h1 {
+        font-size: 90px;
+    }
+    
+    section .links-dentro p {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    section .links-dentro .img-links img {
+        height: 110px;
+    }
+
+    section .links-dentro .img-links p {
+        font-size: 40px;
+    }
+    
+    section .links-dentro .img1 {
+        display: flex;
+    }
+    
+    section .links-dentro .img2 {
+        display: flex;
+    }
+
+    section .cuidados .cuidados-pdf h1 {
+        font-size: 80px;
+        width: 600px;
+    }
+
+    section .cuidados .cuidados-pdf img {
+        height: 130px;
+    }
+
+    section .localização .lugar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section .localização {
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    section .localização .map h1 {
+        font-size: 90px;
+    }
+
+    section .localização .lugar .google-map-lugar iframe {
+        height: 500px;
+        width: 700px;
+    }
+
+    section .localização .lugar .video-lugar video {
+        height: 500px;
+        width: 700px;
+    }
+
+    footer .final .img-logo img {
+        height: 100px;
+    }
+}
+
+section .links-dentro {
+    color: #fdfeec;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+
+section .links-dentro div {
+    margin: 0 60px;
+}
+
+section .links-dentro h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+section .links-dentro p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+section .links-dentro .img1 {
+    display: flex;
+}
+
+section .links-dentro .img2 {
+    display: flex;
+}
+
+section .cuidados {
+    color: #fdfeec;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+section .cuidados h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+section .localização {
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+section .localização .lugar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .localização .lugar div {
+    margin: 0 50px;
+}
+
+section .localização h1 {
+    color: #fdfeec;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+footer .final {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
